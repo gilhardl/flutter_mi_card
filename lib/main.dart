@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/profile-picture.jpg'),
               ),
               Text(
-                'Lorine DEVILLE',
+                'Lorine Deville',
                 style: TextStyle(
                   fontSize: 40.0,
                   color: Colors.white,
@@ -34,6 +34,13 @@ class MyApp extends StatelessWidget {
                   color: Colors.teal[50],
                   fontFamily: 'Source Sans Pro',
                   letterSpacing: 2.5,
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.teal[50],
                 ),
               ),
               Card(
