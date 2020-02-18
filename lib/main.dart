@@ -36,54 +36,44 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 2.5,
                 ),
               ),
-              Container(
-                color: Colors.white,
+              Card(
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.phone,
-                      color: Colors.teal,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+33 6 01 35 43 36',
+                    style: TextStyle(
+                      color: Colors.teal[900],
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20.0,
                     ),
-                    SizedBox(width: 10.0),
-                    Text(
-                      '+33 6 01 35 43 36',
-                      style: TextStyle(
-                        color: Colors.teal[900],
-                        fontFamily: 'Source Sans Pro',
-                        fontSize: 20.0,
-                      ),
-                    )
-                  ],
+                  ),
                 ),
               ),
-              Container(
-                color: Colors.white,
+              Card(
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.mail,
-                      color: Colors.teal,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.mail,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'lorine.deville@lipinterim.fr',
+                    style: TextStyle(
+                      color: Colors.teal[900],
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20.0,
                     ),
-                    SizedBox(width: 10.0),
-                    Text(
-                      'lorine.deville@lipinterim.fr',
-                      style: TextStyle(
-                        color: Colors.teal[900],
-                        fontFamily: 'Source Sans Pro',
-                        fontSize: 20.0,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
             ],
